@@ -1,0 +1,51 @@
+table{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#tablanum>tr:nth-child(2n+1){
+    background: blue;
+
+}
+.amarillo{
+    background: rgb(214, 226, 43);
+    border:ridge;
+}
+.amarillo:hover{
+   background: blanchedalmond;
+   color: black;
+}
+.blue{
+    background:cornflowerblue;
+}
+.blue:hover{
+    background: blanchedalmond;
+    color: black;
+ }
+
+.verde{
+    background: green;
+    border:ridge;
+}
+.verde:hover{
+    background: blanchedalmond;
+    color: black;
+ }
+.naranja{
+    background:orange;
+}
+.naranja:hover{
+    background: blanchedalmond;
+    color: black;
+ }
+.rojo{
+    background:red;
+    border:ridge;
+}
+.rojo:hover{
+    background: blanchedalmond;
+    color: black;
+ }
+ #cabecera > th{
+     background: rgb(197, 13, 13);
+ }

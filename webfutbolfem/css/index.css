@@ -1,0 +1,76 @@
+
+
+main > article{
+    border: ridge 3px black;
+    margin: 5%;
+    padding: 1%;
+    width: 30%;
+    height: 30%;
+    display:inline-block;
+    background: url(https://image.freepik.com/vector-gratis/campo-futbol-verde_225004-1137.jpg);
+    background-size:cover;
+    background-position: center;
+}
+main > article:hover{
+    background: url(https://image.freepik.com/vector-gratis/fondo-textura-pelota-futbol_28257-121.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+article > h2{
+    border:ridge 3px black;
+    margin:5%;
+    padding:1%;
+    background: rgba(0, 0, 255, 0.747);
+}
+article > img{
+    border: ridge 3px black;
+    margin-left: 10%;
+    margin-right: 10%;
+    display:inline-block;
+    padding-left:7%;
+    padding-right:7%;
+    width: 60%;
+    height: 60%;
+    background: rgba(255, 0, 0, 0.671);
+}
+article > nav{
+    margin: 5%;
+
+}
+aside{
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float:right;
+    border: red;
+    width: 30%;
+    height: 70%;
+    background:rgb(34, 34, 163);
+    padding-bottom: 10%;
+    padding-right: 2%;
+}
+aside > h2{
+    margin-top:15%;
+    margin-bottom: 30px;
+    margin-left:9%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+aside > p{
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+footer{
+    margin-bottom: 3%;
+    margin-left:3%;
+    margin-right:3%;
+    opacity: 0.8;
+}

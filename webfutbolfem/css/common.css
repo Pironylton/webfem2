@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-size:contain;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: url(https://wallpapercave.com/wp/786WDtD.jpg);
+    background-position: center;
+}
+main{
+    padding-top: 170px;
+}
+
+nav > a:nth-child(2n){
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 5px;
+    border: solid 1px black;
+    width: 35%;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+    background: red;
+    opacity: 0.7;
+}
+nav > a:nth-child(2n+1){
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 5px;
+    border: solid 1px black;
+    width: 35%;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+    background: blue;
+    opacity: 0.7;
+}
+
+nav > a:nth-child(2n):hover{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    background: red;
+    opacity: 1;
+}
+nav > a:nth-child(2n+1):hover{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    opacity: 1;
+}
+#navegacion >a{
+    float: left;
+    width: 20%;
+    height: 10%;
+}
+header{
+    position:fixed;
+}
+header>img{
+    width: 100%;
+    height: 100px;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+footer{
+    padding-top: 10%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+}
